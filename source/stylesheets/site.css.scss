@@ -3,6 +3,9 @@
 // Base
 @import "base/normalize";
 @import "base/colors";
+@import "base/fonts";
+@import "base/dimens";
+@import "base/base";
 
 // Blocks
 @import "blocks/wrapper";
@@ -11,3 +14,4 @@
 @import "atoms/tile";
 @import "atoms/logo";
 @import "atoms/button";
+@import "atoms/title";
