@@ -1,0 +1,49 @@
+.a-date-badge
+  width: 185px
+  height: 188px
+  overflow: hidden
+  position: absolute
+  top: 0
+  right: 0
+
+  .a-date-badge--inner
+    font: 15px Sans-Serif
+    color: #333
+    text-align: center
+    transform: rotate(45deg)
+    position: relative
+    padding: 7px 0
+    left: -5px
+    top: 55px
+    width: 240px
+    color: #ffffff
+
+    &.as-orange
+      background-color: #FF7400
+
+    &.as-blue
+      background-color: #009999
+
+    &.as-black
+      background-color: $black
+
+    &:before
+      left: 0
+
+    &:after
+      right: 0
+
+  .a-date-badge--date
+    z-index: 1
+    text-align: center
+    color: $white
+    transform: rotate(-20deg)
+
+  @media (max-width: 413px)
+    width: 145px
+    .a-date-badge--inner
+      font-size: 12px
+      width: 200px
+      top: 35px
+
+
