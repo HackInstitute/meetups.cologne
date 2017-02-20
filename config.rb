@@ -21,6 +21,11 @@ page '/*.txt', layout: false
 # Reload the browser automatically whenever files change
 activate :livereload
 
+# Use autoprefixer
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions', 'Explorer >= 9']
+end
+
 ###
 # Helpers
 ###
