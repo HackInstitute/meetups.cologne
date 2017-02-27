@@ -3,43 +3,18 @@ title: meetups.cologne
 ---
 
 <section class="b-wrapper">
-  <section class="a-tile as-webmontag">
-    <div class="a-date-badge">
-      <div class="a-date-badge--inner as-orange">Next date: <%= data.dates.webmontag %></div>
-    </div>
-    <div class="a-brand">
-      <%= image_tag 'logo_webmontag.svg', class:"a-logo as-webmontag" %>
-      <span class="a-title">Webmontag Köln</span>
-    </div>
-    <a href="http://webmontag-koeln.de/" class="a-button as-webmontag">Learn More</a>
-
-  </section>
-  <section class="a-tile as-fintech">
-    <div class="a-date-badge">
-      <div class="a-date-badge--inner as-blue">Next date: <%= data.dates.fintech %></div>
-    </div>
-    <div class="a-brand">
-      <%= image_tag 'logo_fintech.svg', class:"a-logo" %>
-    </div>
-    <a href="https://www.meetup.com/FinTech-InsurTech-Meetup-Koln-Bonn/" class="a-button as-fintech">Learn More</a>
-  </section>
-  <section class="a-tile as-devhouse">
-    <div class="a-date-badge">
-      <div class="a-date-badge--inner as-black">Next date: <%= data.dates.devhouse %></div>
-    </div>
-    <div class="a-brand">
-      <%= image_tag 'logo_devhouse.svg', class:"a-logo as-devhouse" %>
-    </div>
-    <a href="https://www.meetup.com/de-DE/DevHouseFriday-Chillout/" class="a-button as-dark">Learn More</a>
-  </section>
-  <section class="a-tile as-wordpress">
-    <div class="a-date-badge">
-      <div class="a-date-badge--inner as-black">Next date: <%= data.dates.wordpress %></div>
-    </div>
-    <div class="a-brand">
-      <%= image_tag 'logo_wordpress.jpg', class:"a-logo as-wordpress" %>
-      <span class="a-title">Wordpress Meetup Köln</span>
-    </div>
-    <a href="https://www.meetup.com/de-DE/WordPress-Meetup-Koln/" class="a-button as-dark">Learn More</a>
-  </section>
+  <% data.dates.meetups.each do |meetup| %>
+    <section class="a-tile" style="background:linear-gradient(45deg, <%= meetup.gradient_from %>, <%= meetup.gradient_to %>)">
+      <div class="a-date-badge">
+        <div class="a-date-badge--inner" style="background-color:<%= meetup.badge_color %>">Next date: <%= meetup.next_date %></div>
+      </div>
+      <div class="a-brand">
+        <img src="<%= image_path meetup.logo %>" class="a-logo <%= 'as-small' if meetup.display_name %>">
+        <% if meetup.display_name %>
+          <span class="a-title"><%= meetup.name %></span>
+        <% end %>
+      </div>
+      <a href="<%= meetup.link %>" class="a-button <%= 'as-dark' if meetup.dark_button %>">Learn More</a>
+    </section>
+  <% end %>
 </section>
