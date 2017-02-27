@@ -9,6 +9,9 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+# Set fonts dir for font awesome
+set :fonts_dir,  "fonts"
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 

@@ -51,6 +51,8 @@ GEM
     eventmachine (1.2.3)
     execjs (2.7.0)
     ffi (1.9.17)
+    font-awesome-middleman (4.5.0)
+      middleman-core (~> 3.0)
     haml (4.0.7)
       tilt
     hike (1.2.3)
@@ -159,6 +161,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  font-awesome-middleman
   middleman (= 3.4.0)
   middleman-autoprefixer
   middleman-deploy
@@ -169,4 +172,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.13.7
+   1.14.5
