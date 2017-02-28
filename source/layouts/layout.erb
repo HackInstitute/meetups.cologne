@@ -24,7 +24,7 @@
 
     ga('create', 'UA-62838178-8', 'auto', {'allowLinker': true});
     ga('require', 'linker');
-    ga('linker:autoLink', <%= data[settings.city].analytics %>);
+    ga('linker:autoLink', <%= data[settings.city][settings.city].analytics %>);
     ga('send', 'pageview');
 
   </script>
