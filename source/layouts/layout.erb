@@ -24,7 +24,7 @@
 
     ga('create', 'UA-62838178-8', 'auto', {'allowLinker': true});
     ga('require', 'linker');
-    ga('linker:autoLink', ['meetups.barcelona'] );
+    ga('linker:autoLink', <%= data.dates.analytics %>);
     ga('send', 'pageview');
 
   </script>
