@@ -1,5 +1,5 @@
 london: 
-  city: london
+  title: london
   analytics:
     - meetups.amsterdam
     - meetups.cologne

@@ -11,6 +11,7 @@ page '/*.txt', layout: false
 
 # Set fonts dir for font awesome
 set :fonts_dir,  "fonts"
+set :city, ENV['CITY'] || 'master'
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
@@ -34,12 +35,7 @@ end
 ###
 
 # Methods defined in the helpers block are available in templates
-helpers do
-	def current_city
-		git = Git.open('.')
-		git.current_branch
-	end
-end
+
 
 # Build-specific configuration
 configure :build do

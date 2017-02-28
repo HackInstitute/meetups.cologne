@@ -1,5 +1,5 @@
 master: 
-  city: master
+  title: master
   analytics:
     - meetups.cologne
     - meetups.london
