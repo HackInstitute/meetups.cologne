@@ -1,5 +1,5 @@
 <section class="b-wrapper">
-  <% data.dates[data.dates.current_city].meetups.each do |meetup| %>
+  <% data[current_city][current_city].meetups.each do |meetup| %>
     <section class="a-tile" style="background:linear-gradient(45deg, <%= meetup.gradient_from %>, <%= meetup.gradient_to %>)">
       <div class="a-date-badge">
         <div class="a-date-badge--inner" style="background-color:<%= meetup.badge_color %>">Next date: <%= meetup.next_date %></div>

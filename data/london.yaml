@@ -1,0 +1,46 @@
+london: 
+  city: london
+  analytics:
+    - meetups.amsterdam
+    - meetups.cologne
+  meetups:
+    -
+      name: "PyData London Meetup"
+      next_date: "07.03.2017"
+      logo: "pydata.png"
+      gradient_from: "#576C74"
+      gradient_to: "#576C74"
+      badge_color: "#FF7400"
+      link: "https://www.meetup.com/PyData-London-Meetup"
+      display_name: false
+      dark_text: false
+    -
+      name: "London JavaScript Community"
+      next_date: "06.03.2017"
+      logo: "londonjs.png"
+      gradient_from: "#2C2D2A"
+      gradient_to: "#2C2D2A"
+      badge_color: "#EFD738"
+      link: "https://www.meetup.com/London-JavaScript-Community"
+      display_name: false
+      dark_text: false
+    -
+      name: "InsTech London"
+      next_date: "20.03.2017"
+      logo: "instech.jpeg"
+      gradient_from: "#1B1B19"
+      gradient_to: "#1B1B19"
+      badge_color: "#F1D72A"
+      link: "https://www.meetup.com/instech/"
+      display_name: false
+      dark_text: false
+    -
+      name: "London New Tech"
+      next_date: "08.03.2017"
+      logo: "london_new_tech.png"
+      gradient_from: "#FF7403"
+      gradient_to: "#FF7403"
+      badge_color: "#FFC48E"
+      link: "https://www.meetup.com/London-New-Tech/"
+      display_name: false
+      dark_text: false    
