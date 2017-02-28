@@ -11,10 +11,10 @@ title: meetups.cologne
       <div class="a-brand">
         <img src="<%= image_path meetup.logo %>" class="a-logo <%= 'as-small' if meetup.display_name %>">
         <% if meetup.display_name %>
-          <span class="a-title"><%= meetup.name %></span>
+          <span class="a-title <%= 'as-dark' if meetup.dark_text %>"><%= meetup.name %></span>
         <% end %>
       </div>
-      <a href="<%= meetup.link %>" class="a-button <%= 'as-dark' if meetup.dark_button %>">Learn More</a>
+      <a href="<%= meetup.link %>" class="a-button <%= 'as-dark' if meetup.dark_text %>">Learn More</a>
     </section>
   <% end %>
 </section>

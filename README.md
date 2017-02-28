@@ -19,7 +19,7 @@ Every meetup needs the following attributes:
     badge_color: "#FF7400"
     link: "http://webmontag-koeln.de/"
     display_name: true
-    dark_button: false
+    dark_text: false
 ```
 
 * `name`: The name of the meetup
@@ -29,4 +29,4 @@ Every meetup needs the following attributes:
 * `badge_color`: Color of the badge. Keep in mind that the text on the badge is always white while choosing the color.
 * `link`: Link to an external page representing the meetup.
 * `display_name`: Wether the name of the Meetup should be displayed. This also affects the size of the logo. **Can only be `true` or `false`.**
-* `dark_button`: Wether to use a dark button. Use this if the background color is light. **Can only be `true` or `false`.**
+* `dark_text`: Wether to use a dark title text & button. Use this if the background color is light. **Can only be `true` or `false`.**
