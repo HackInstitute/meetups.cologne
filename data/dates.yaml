@@ -1,42 +1,42 @@
-city: koeln
+city: amsterdam
 meetups:
   -
-    name: "Webmontag"
-    next_date: "10.04.2017"
-    logo: "logo_webmontag.svg"
-    gradient_from: "#33D4A6"
-    gradient_to: "#3FDA90"
+    name: "Holland FinTech Meetup"
+    next_date: "10.03.2017"
+    logo: "logo_holland_fintech.png"
+    gradient_from: "#ffffff"
+    gradient_to: "#ffffff"
     badge_color: "#FF7400"
-    link: "http://webmontag-koeln.de/"
-    display_name: true
-    dark_text: false
-  -
-    name: "Fintech Meetup"
-    next_date: "09.03.2017"
-    logo: "logo_fintech.svg"
-    gradient_from: "#D55223"
-    gradient_to: "#C83B49"
-    badge_color: "#009999"
-    link: "https://www.meetup.com/FinTech-InsurTech-Meetup-Koln-Bonn/"
-    display_name: false
-    dark_text: false
-  -
-    name: "Devhouse Friday"
-    next_date: "24.03.2017"
-    logo: "logo_devhouse.svg"
-    gradient_from: "#eeeeee"
-    gradient_to: "#eeeeee"
-    badge_color: "#333333"
-    link: "https://www.meetup.com/de-DE/DevHouseFriday-Chillout/"
+    link: "https://www.meetup.com/Holland-FinTech-Meetup"
     display_name: false
     dark_text: true
   -
-    name: "Wordpress Meetup Köln"
-    next_date: "tbd"
-    logo: "logo_wordpress.jpg"
-    gradient_from: "#1b749e"
-    gradient_to: "#1b749e"
-    badge_color: "#333333"
-    link: "https://www.meetup.com/de-DE/WordPress-Meetup-Koln/"
+    name: "Amsterdam AI & DL"
+    next_date: "10.03.2017"
+    logo: "h2o.png"
+    gradient_from: "#FBE700"
+    gradient_to: "#FBE700"
+    badge_color: "#FF7400"
+    link: "https://www.meetup.com/Amsterdam-Artificial-Intelligence-Deep-Learning/"
     display_name: true
-    dark_text: false
+    dark_text: true
+  -
+    name: "React Amsterdam"
+    next_date: "21.04.2017"
+    logo: "react-amsterdam.png"
+    gradient_from: "#ffffff"
+    gradient_to: "#ffffff"
+    badge_color: "#FF7400"
+    link: "https://www.meetup.com/Amsterdam-Artificial-Intelligence-Deep-Learning/"
+    display_name: true
+    dark_text: true    
+  -
+    name: "amsterdamUX"
+    next_date: "01.03.2017"
+    logo: "ux-amsterdam.jpeg"
+    gradient_from: "#EBEBEB"
+    gradient_to: "#EBEBEB"
+    badge_color: "#FF7400"
+    link: "https://www.meetup.com/AmsterdamUX/photos/25368032/435833114/"
+    display_name: true
+    dark_text: true        
