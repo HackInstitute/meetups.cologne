@@ -1,5 +1,7 @@
 cologne: 
   title: cologne
+  url: http://www.meetups.cologne
+  social_media_image: http://www.meetups.cologne/images/meetups-cologne-image.jpg
   analytics:
     - meetups.amsterdam
     - meetups.london

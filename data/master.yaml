@@ -1,5 +1,7 @@
 master: 
   title: master
+  url: http://localhost:4567
+  social_media_image: http://localhost:4567/images/meetups-master-image.jpg
   analytics:
     - meetups.cologne
     - meetups.london

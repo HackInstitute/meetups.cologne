@@ -1,5 +1,7 @@
 london: 
   title: london
+  url: http://www.meetups.london
+  social_media_image: http://www.meetups.london/images/meetups-london-image.jpg
   analytics:
     - meetups.amsterdam
     - meetups.cologne
