@@ -19,7 +19,7 @@ $ CITY=‘london’ middleman server
 Or, if you're using bundler:
 
 ```
-$ City='london' bundle exec middleman server
+$ CITY='london' bundle exec middleman server
 ```
 
 Note that the name must match a `.yaml` file with an equal name.
