@@ -1,11 +1,11 @@
-amsterdam: 
-  title: amsterdam
-  url: http://www.meetups.amsterdam
-  social_media_image: http://www.meetups.amsterdam/images/meetups-amsterdam-image.jpg
+barcelona: 
+  title: barcelona
+  url: http://www.meetups.barcelona
+  social_media_image: http://www.meetups.barcelona/images/meetups-barcelona-image.jpg
   analytics:
     - meetups.cologne
     - meetups.london
-    - meetups.barcelona
+    - meetups.amsterdam
   meetups:
     -
       name: "Holland FinTech Meetup"

@@ -5,6 +5,7 @@ london:
   analytics:
     - meetups.amsterdam
     - meetups.cologne
+    - meetups.barcelona
   meetups:
     -
       name: "PyData London Meetup"

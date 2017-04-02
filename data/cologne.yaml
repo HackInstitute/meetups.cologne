@@ -5,6 +5,7 @@ cologne:
   analytics:
     - meetups.amsterdam
     - meetups.london
+    - meetups.barcelona
   meetups:
     -
       name: "Webmontag"
@@ -18,7 +19,7 @@ cologne:
       dark_text: false
     -
       name: "Fintech Meetup"
-      next_date: "09.03.2017"
+      next_date: "15.06.2017"
       logo: "logo_fintech.svg"
       gradient_from: "#D55223"
       gradient_to: "#C83B49"
@@ -28,7 +29,7 @@ cologne:
       dark_text: false
     -
       name: "Devhouse Friday"
-      next_date: "24.03.2017"
+      next_date: "19.05.2017"
       logo: "logo_devhouse.svg"
       gradient_from: "#eeeeee"
       gradient_to: "#eeeeee"

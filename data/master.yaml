@@ -5,6 +5,7 @@ master:
   analytics:
     - meetups.cologne
     - meetups.london
+    - meetups.barcelona
   meetups:
     -
       name: "Holland FinTech Meetup"
